@@ -1,0 +1,244 @@
+{
+  "name": "สหพัฒน์ จันทร์ดำ",
+  "title": "Performance Marketing · Digital Ads · 3D & Creative",
+  "contact": [
+    {
+      "text": "sahapatwork3@gmail.com",
+      "href": "mailto:sahapatwork3@gmail.com"
+    },
+    {
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/in/sahapat-jundum-22a3232b0"
+    },
+    {
+      "text": "ชลบุรี ประเทศไทย (พร้อมย้ายไปทำงานกรุงเทพฯ)"
+    }
+  ],
+  "badge": "ผ่านการเกณฑ์ทหาร กองทัพเรือ (พ.ย. 2569) · พร้อมเริ่มงานทันที",
+  "photoCard": "",
+  "titleCard": "headline",
+  "sections": [
+    {
+      "id": "profile",
+      "heading": "เกี่ยวกับผม",
+      "type": "text",
+      "items": [
+        {
+          "text": "นักการตลาดสาย Performance ที่มีประสบการณ์หาลูกค้า (Lead Generation) ด้วย Meta และ Google Ads ในธุรกิจอสังหาริมทรัพย์ จบปริญญาตรีด้าน Interactive and Game Design ผมวางโครงข้อความโฆษณาและฟอร์มเก็บลีด คัดกรองผู้ซื้อ และพาไปจนถึงนัดดูบ้าน ด้านครีเอทีฟผมเขียนคำโฆษณา สคริปต์วิดีโอสั้น ทำ Virtual Tour และงาน 3D เอง โดยใช้ AI ช่วยเร่งงานโดยยังรักษาความสม่ำเสมอของแบรนด์"
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "heading": "ประสบการณ์ทำงาน",
+      "type": "jobs",
+      "items": [
+        {
+          "role": "รับราชการทหารกองประจำการ",
+          "org": "กองทัพเรือ",
+          "date": "พ.ค. 2569 – พ.ย. 2569",
+          "bullets": [
+            {
+              "text": "ผ่านการเกณฑ์ทหารครบถ้วน ปลดประจำการแล้ว"
+            }
+          ]
+        },
+        {
+          "role": "Performance Marketing & Ads Optimization",
+          "org": "SbuyHome (บริษัท กล้าพร้อม จำกัด) กรุงเทพฯ",
+          "date": "พ.ย. 2568 – ก.พ. 2569",
+          "sub": "เลื่อนจากตำแหน่ง General Marketing",
+          "subdate": "ก.ค. 2568 – ต.ค. 2568",
+          "bullets": [
+            {
+              "text": "ออกแบบแคมเปญ Meta Lead-gen ด้วยโครง Hook – Pain Point – Proof – CTA ที่ปรับให้เข้ากับผู้ซื้อคนไทย สร้างลีดคุณภาพให้บ้านรีโนเวท"
+            },
+            {
+              "text": "สร้างแคมเปญ Google Ads Search จัดกลุ่มคีย์เวิร์ดและข้อความโฆษณาตาม Search Intent ในพื้นที่ ติดตามทราฟฟิกและ Engagement ด้วย GA4",
+              "card": "icons-ads"
+            },
+            {
+              "text": "ปรับข้อความให้สอดคล้องกันทั้ง Meta และ Performance Max เพื่อให้ Positioning, CTA และคำถามคัดกรองลีดเป็นทิศทางเดียวกัน"
+            },
+            {
+              "text": "สร้าง Instant Form เก็บทำเล งบประมาณ และช่วงเวลาที่ต้องการ แล้วแบ่งกลุ่มลีดเข้า Nurture Workflow จนเกิดการนัดดูบ้านจริง"
+            },
+            {
+              "text": "ดูแล Pipeline ผู้ซื้อ: คัดกรองคนทัก ตอบข้อโต้แย้ง นัดดูบ้าน และให้คำแนะนำเรื่องสินเชื่อเบื้องต้น"
+            },
+            {
+              "text": "รับผิดชอบงานประกาศขายและ Virtual Tour ทั้งกระบวนการ (ถ่าย ตัดต่อ เผยแพร่) ให้ผู้ซื้อดูบ้านจากที่ไหนก็ได้",
+              "card": "sb-tour"
+            },
+            {
+              "text": "เขียนคำโฆษณาประกาศและสคริปต์วิดีโอสั้นภาษาไทย ใช้ ChatGPT, Gemini และ Midjourney เพิ่มปริมาณงานโดยคงความเป็นแบรนด์"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "heading": "ประสบการณ์ด้านครีเอทีฟและโปรเจกต์",
+      "type": "jobs",
+      "items": [
+        {
+          "role": "3D Asset Artist",
+          "org": "โปรเจกต์จบ มหาวิทยาลัยศรีปทุม",
+          "date": "2568",
+          "card": "dyingland",
+          "desc": "ปั้นตัวละคร พร็อพ และฉากทั้ง Low และ High-poly ดูแล Modeling, Texturing, Optimization และนำเข้า Unity ร่วมกับทีม"
+        },
+        {
+          "role": "นักศึกษาฝึกงาน Graphic Designer",
+          "org": "ACE Digital Group / TEM Entertainment",
+          "date": "พ.ค. 2567 – ก.ย. 2567",
+          "card": "tem",
+          "desc": "รีทัชภาพ ตัดต่อวิดีโอ และคิดคอนเทนต์หน้างานร่วมกับทีมโปรดักชัน"
+        },
+        {
+          "role": "ผู้ช่วย Motion Graphic",
+          "org": "โปรเจกต์ปี 2",
+          "date": "2566",
+          "card": "predator",
+          "desc": "ศึกษางาน Motion Graphic อีสปอร์ตกับ 9up Idea ออกงาน Predator League Thailand แบบ Offline 3 วัน และได้รับเกียรติบัตรการฝึกอบรมจาก Predator"
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "heading": "โปรเจกต์ส่วนตัว",
+      "type": "jobs",
+      "items": [
+        {
+          "role": "KhunMadam",
+          "org": "แบรนด์ร้านหนังสือพัฒนาตัวเอง",
+          "date": "2568",
+          "card": "khunmadam",
+          "desc": "สร้างระบบแบรนด์ทั้งหมดคนเดียว: Mascot, LINE Rich Menu, การ์ดคอนเทนต์ และหน้าร้านออนไลน์ที่ใช้งานได้จริงที่ khunmadam.com"
+        },
+        {
+          "role": "PrayadFaiBot (@NongWatt_bot)",
+          "org": "บอทคำนวณค่าไฟบน Telegram",
+          "date": "2569",
+          "card": "nongwatt",
+          "desc": "แชทบอท Python ที่อธิบายอัตราค่าไฟ กฟภ./กฟน. ค่า Ft และ TOU เป็นภาษาคน พร้อมประมาณบิลรายเดือน"
+        },
+        {
+          "role": "MaxRadar",
+          "org": "บอทติดตามหุ้นพร้อมความเห็นจาก AI",
+          "date": "2569",
+          "card": "maxradar",
+          "desc": "บอท Python + Telegram ติดตามหุ้น 28 ตัว คำนวณโซนเข้าด้วยโค้ด ให้ Claude เขียนความเห็นไทยโดยมีตัวตรวจห้ามแต่งตัวเลข ส่งสรุปตอนเช้า วิเคราะห์ผลกระทบข่าว และมี Dashboard บน Desktop"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "heading": "ทักษะ",
+      "type": "list",
+      "items": [
+        {
+          "label": "Performance:",
+          "text": "Meta & Google Ads, A/B testing, Search-intent mapping, GA4",
+          "card": "icons-ads"
+        },
+        {
+          "label": "การขาย:",
+          "text": "คัดกรองลีด, ขายแบบให้คำปรึกษา, ติดตามผล, ประสานงานนัดดูบ้าน"
+        },
+        {
+          "label": "ครีเอทีฟ:",
+          "text": "Virtual Tour, เขียนคำโฆษณาไทย, สคริปต์และตัดต่อวิดีโอสั้น (CapCut), เทมเพลตโซเชียล (Canva), หลักจัดวางโฆษณา"
+        },
+        {
+          "label": "แบรนด์และคอนเทนต์:",
+          "text": "ออกแบบ Mascot และไอคอน, LINE Rich Menu, รีทัชภาพ, ถ่าย 360°, สร้าง Landing page"
+        },
+        {
+          "label": "3D:",
+          "text": "Modeling, Texturing, Low/High-poly, Unity",
+          "card": "threed"
+        },
+        {
+          "label": "AI:",
+          "text": "Claude Code และ AI Agent สำหรับ Automation",
+          "card": "nongwatt"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "heading": "เครื่องมือ",
+      "type": "list",
+      "items": [
+        {
+          "text": "Meta Ads Manager, Google Ads, GA4",
+          "card": "icons-ads"
+        },
+        {
+          "text": "Blender, Maya, Substance Painter, Marmoset",
+          "card": "icons-3d"
+        },
+        {
+          "text": "Photoshop, After Effects, Premiere Pro",
+          "card": "icons-adobe"
+        },
+        {
+          "text": "Canva, CapCut, Illustrator, Figma, GIMP, Photoroom",
+          "card": "icons-design"
+        },
+        {
+          "text": "Claude (Claude Code, AI agents), ChatGPT, Gemini, Midjourney, Perplexity",
+          "card": "icons-ai"
+        },
+        {
+          "text": "Unity, HTML, CSS, C# พื้นฐาน; n8n (กำลังเรียนรู้)",
+          "card": "icons-dev"
+        },
+        {
+          "text": "Git & GitHub, LINE Official Account, Telegram Bot API, pano.cool 360°, Excel / Google Sheets",
+          "card": "icons-ops"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "heading": "การศึกษา",
+      "type": "edu",
+      "items": [
+        {
+          "title": "ปริญญาตรี Interactive and Game Design",
+          "sub": "มหาวิทยาลัยศรีปทุม · 2563 – 2568"
+        },
+        {
+          "title": "มัธยมปลาย",
+          "sub": "โรงเรียนดาราสมุทร ศรีราชา · 2563"
+        },
+        {
+          "title": "มัธยมต้น",
+          "sub": "โรงเรียนวัดนวลนรดิศ · 2561"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "ภาษา",
+      "type": "text",
+      "items": [
+        {
+          "text": "ไทย – เจ้าของภาษา · อังกฤษ – ระดับกลาง"
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "hint": "เอาเมาส์ชี้บรรทัดที่ขีดเส้นใต้ เพื่อดูผลงานจริง ✨",
+    "hintMobile": "แตะบรรทัดที่ไฮไลต์เพื่อดูผลงาน",
+    "open": "เปิดดู",
+    "close": "ปิด",
+    "download": "ดาวน์โหลด PDF",
+    "lang": "EN",
+    "proof": "หลักฐาน"
+  }
+}

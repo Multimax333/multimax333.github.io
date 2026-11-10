@@ -1,0 +1,244 @@
+{
+  "name": "SAHAPAT JUNDUM",
+  "title": "Performance Marketing · Digital Ads · 3D & Creative",
+  "contact": [
+    {
+      "text": "sahapatwork3@gmail.com",
+      "href": "mailto:sahapatwork3@gmail.com"
+    },
+    {
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/in/sahapat-jundum-22a3232b0"
+    },
+    {
+      "text": "Chonburi, Thailand (open to relocating to Bangkok)"
+    }
+  ],
+  "badge": "Completed military service, Royal Thai Navy (Nov 2026) · Available immediately",
+  "photoCard": "",
+  "titleCard": "headline",
+  "sections": [
+    {
+      "id": "profile",
+      "heading": "PROFILE",
+      "type": "text",
+      "items": [
+        {
+          "text": "Performance marketer with real-estate lead-generation experience on Meta and Google Ads, backed by a degree in Interactive and Game Design. I build ad messaging frameworks and lead forms, qualify buyers, and move inquiries through to booked viewings. On the creative side, I produce listing copy, short-form video scripts, Virtual Tours and 3D assets, using AI tools to speed up production while keeping the brand consistent."
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "heading": "PROFESSIONAL EXPERIENCE",
+      "type": "jobs",
+      "items": [
+        {
+          "role": "Military Service (Conscription)",
+          "org": "Royal Thai Navy",
+          "date": "May 2026 – Nov 2026",
+          "bullets": [
+            {
+              "text": "Completed mandatory national military service, fully discharged."
+            }
+          ]
+        },
+        {
+          "role": "Performance Marketing & Ads Optimization",
+          "org": "SbuyHome (KLAPROM Co., Ltd.), Bangkok",
+          "date": "Nov 2025 – Feb 2026",
+          "sub": "Promoted from General Marketing",
+          "subdate": "Jul 2025 – Oct 2025",
+          "bullets": [
+            {
+              "text": "Designed Meta lead-gen campaigns on a Hook–Pain Point–Proof–CTA framework tuned to Thai buyers, driving qualified leads for renovated-home listings."
+            },
+            {
+              "text": "Built Google Ads search campaigns with keyword themes and ad variants mapped to local search intent; tracked traffic and engagement in GA4.",
+              "card": "icons-ads"
+            },
+            {
+              "text": "Aligned messaging across Meta and Performance Max for consistent positioning, CTAs and lead-qualification prompts."
+            },
+            {
+              "text": "Built Instant Forms capturing location, budget and timeline, and segmented leads into nurture workflows that converted into booked viewings."
+            },
+            {
+              "text": "Managed the buyer pipeline: qualified inbound inquiries, handled objections, coordinated viewings and gave early-stage financing guidance."
+            },
+            {
+              "text": "Owned listing operations and the Virtual Tour workflow (capture, edit, publish), letting buyers view homes remotely.",
+              "card": "sb-tour"
+            },
+            {
+              "text": "Wrote Thai listing copy and short-form video scripts, using ChatGPT, Gemini and Midjourney to scale output while keeping the brand consistent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creative",
+      "heading": "CREATIVE & PROJECT EXPERIENCE",
+      "type": "jobs",
+      "items": [
+        {
+          "role": "3D Asset Artist",
+          "org": "Final Year Project, Sripatum University",
+          "date": "2025",
+          "card": "dyingland",
+          "desc": "Produced low- and high-poly characters, props and environments; handled modeling, texturing, optimization and Unity integration with the team."
+        },
+        {
+          "role": "Graphic Designer Intern",
+          "org": "ACE Digital Group / TEM Entertainment",
+          "date": "May 2024 – Sep 2024",
+          "card": "tem",
+          "desc": "Edited photo and video and developed content concepts on-site with cross-functional production teams."
+        },
+        {
+          "role": "Motion Graphic Assistant",
+          "org": "Sophomore Project",
+          "date": "2023",
+          "card": "predator",
+          "desc": "Studied esports motion-graphics production with 9up Idea, worked the Predator League Thailand event on-site for 3 days, and received a Certificate of Training from Predator."
+        }
+      ]
+    },
+    {
+      "id": "side",
+      "heading": "SIDE PROJECTS",
+      "type": "jobs",
+      "items": [
+        {
+          "role": "KhunMadam",
+          "org": "Self-development bookshop brand",
+          "date": "2025",
+          "card": "khunmadam",
+          "desc": "Built the full brand system solo: mascot, LINE Rich Menu, content cards and a working storefront at khunmadam.com."
+        },
+        {
+          "role": "PrayadFaiBot (@NongWatt_bot)",
+          "org": "Telegram electricity-bill calculator",
+          "date": "2026",
+          "card": "nongwatt",
+          "desc": "Python chatbot that explains Thai PEA/MEA tariffs, Ft and TOU rates in plain language and estimates the monthly bill."
+        },
+        {
+          "role": "MaxRadar",
+          "org": "Stock watchlist bot with AI commentary",
+          "date": "2026",
+          "card": "maxradar",
+          "desc": "Python + Telegram bot tracking 28 stocks: entry zones computed in code, Thai commentary by Claude with a strict no-invented-numbers guard, morning briefs, news impact and a desktop dashboard."
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "heading": "SKILLS",
+      "type": "list",
+      "items": [
+        {
+          "label": "Performance:",
+          "text": "Meta & Google Ads, A/B testing, search-intent mapping, GA4",
+          "card": "icons-ads"
+        },
+        {
+          "label": "Sales:",
+          "text": "lead qualification, consultative selling, follow-up, viewing coordination"
+        },
+        {
+          "label": "Creative:",
+          "text": "Virtual Tours, Thai copywriting, short-form scripts & editing (CapCut), social templates (Canva), ad layout rules"
+        },
+        {
+          "label": "Brand & content:",
+          "text": "mascot & icon design, LINE Rich Menu, photo retouching, 360° capture, landing-page build"
+        },
+        {
+          "label": "3D:",
+          "text": "modeling, texturing, low/high-poly, Unity",
+          "card": "threed"
+        },
+        {
+          "label": "AI:",
+          "text": "Claude Code & AI agents for workflow automation",
+          "card": "nongwatt"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "heading": "TOOLS",
+      "type": "list",
+      "items": [
+        {
+          "text": "Meta Ads Manager, Google Ads, GA4",
+          "card": "icons-ads"
+        },
+        {
+          "text": "Blender, Maya, Substance Painter, Marmoset",
+          "card": "icons-3d"
+        },
+        {
+          "text": "Photoshop, After Effects, Premiere Pro",
+          "card": "icons-adobe"
+        },
+        {
+          "text": "Canva, CapCut, Illustrator, Figma, GIMP, Photoroom",
+          "card": "icons-design"
+        },
+        {
+          "text": "Claude (Claude Code, AI agents), ChatGPT, Gemini, Midjourney, Perplexity",
+          "card": "icons-ai"
+        },
+        {
+          "text": "Unity, HTML, CSS, basic C#; n8n (learning)",
+          "card": "icons-dev"
+        },
+        {
+          "text": "Git & GitHub, LINE Official Account, Telegram Bot API, pano.cool 360°, Excel / Google Sheets",
+          "card": "icons-ops"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "heading": "EDUCATION",
+      "type": "edu",
+      "items": [
+        {
+          "title": "B. Interactive and Game Design",
+          "sub": "Sripatum University · 2020 – 2025"
+        },
+        {
+          "title": "High School",
+          "sub": "Darasamutr School, Sriracha · 2020"
+        },
+        {
+          "title": "Junior High School",
+          "sub": "Wat Nuannoradit School · 2018"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "heading": "LANGUAGES",
+      "type": "text",
+      "items": [
+        {
+          "text": "Thai – Native · English – Intermediate"
+        }
+      ]
+    }
+  ],
+  "ui": {
+    "hint": "Hover any underlined line to see the proof ✨",
+    "hintMobile": "Tap a highlighted line to see the work",
+    "open": "Open",
+    "close": "Close",
+    "download": "Download PDF",
+    "lang": "ไทย",
+    "proof": "proof"
+  }
+}

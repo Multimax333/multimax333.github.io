@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sahapat Jundum · Interactive Resume</title>
+  <meta name="description" content="Performance marketer who designs, models, edits and builds. Hover any line of the resume to see the proof.">
+  <meta property="og:title" content="Sahapat Jundum · Interactive Resume">
+  <meta property="og:description" content="Performance Marketing · Digital Ads · 3D & Creative. Hover any line to see the work behind it.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#F6F1E7">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/resume.css">
+  <link rel="stylesheet" href="css/cards.css">
+  <link rel="stylesheet" href="css/popup.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231E2A24'/%3E%3Ctext x='32' y='43' font-family='Inter,Arial' font-weight='800' font-size='30' text-anchor='middle' fill='%23F2B134'%3ESJ%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob blob-1"></span><span class="blob blob-2"></span><span class="blob blob-3"></span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Sahapat Jundum"><span class="brand-mark">SJ</span><span class="brand-text">Sahapat Jundum</span></a>
+    <div class="topbar-actions">
+      <button class="btn btn-ghost" id="langToggle" type="button" aria-label="Switch language">ไทย</button>
+      <a class="btn btn-primary" id="downloadBtn" href="assets/pdf/Sahapat_Jundum_CV.pdf" download>Download PDF</a>
+    </div>
+  </header>
+
+  <main id="top" class="stage">
+    <article class="sheet" id="sheet" aria-label="Resume"></article>
+  </main>
+
+
+  <!-- floating proof card -->
+  <aside class="card" id="card" role="dialog" aria-hidden="true" aria-live="polite"></aside>
+  <svg class="connector" id="connector" aria-hidden="true"><path id="connectorPath" d=""/></svg>
+
+  <!-- first-visit hint -->
+  <div class="hint" id="hint" role="status" hidden></div>
+
+  <!-- mascot placeholder -->
+  <div class="mascot" id="mascot" aria-hidden="true">
+    <svg viewBox="0 0 120 140" width="120" height="140">
+      <g class="m-body">
+        <ellipse cx="60" cy="128" rx="30" ry="6" fill="rgba(30,42,36,.12)"/>
+        <rect x="30" y="70" width="60" height="52" rx="16" fill="#F2B134" stroke="#1E2A24" stroke-width="3"/>
+        <rect x="42" y="84" width="36" height="26" rx="4" fill="#fff" stroke="#1E2A24" stroke-width="3" class="m-paper"/>
+        <line x1="48" y1="92" x2="72" y2="92" stroke="#1E2A24" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="48" y1="99" x2="66" y2="99" stroke="#1E2A24" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="60" cy="44" r="30" fill="#FBE3C7" stroke="#1E2A24" stroke-width="3"/>
+        <path d="M32 40 Q40 12 62 14 Q86 12 90 40 Q78 30 60 32 Q44 34 32 40Z" fill="#1E2A24"/>
+        <g class="m-eyes">
+          <circle cx="49" cy="46" r="3.2" fill="#1E2A24"/>
+          <circle cx="71" cy="46" r="3.2" fill="#1E2A24"/>
+        </g>
+        <path class="m-mouth" d="M52 58 Q60 64 68 58" fill="none" stroke="#1E2A24" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="42" cy="54" r="3.5" fill="#F7A6A0" opacity=".8"/>
+        <circle cx="78" cy="54" r="3.5" fill="#F7A6A0" opacity=".8"/>
+      </g>
+      <g class="m-spark" fill="#F2B134" stroke="#1E2A24" stroke-width="2">
+        <path d="M104 22 l4 8 8 4 -8 4 -4 8 -4 -8 -8 -4 8 -4z"/>
+      </g>
+    </svg>
+  </div>
+
+  <!-- popup / bottom sheet -->
+  <div class="popup-backdrop" id="popupBackdrop" hidden></div>
+  <section class="popup" id="popup" role="dialog" aria-modal="true" aria-hidden="true" hidden>
+    <div class="popup-grab" aria-hidden="true"></div>
+    <header class="popup-head">
+      <div class="popup-titles">
+        <p class="popup-tag" id="popupTag"></p>
+        <h2 class="popup-title" id="popupTitle"></h2>
+      </div>
+      <button class="popup-close" id="popupClose" type="button" aria-label="Close">✕</button>
+    </header>
+    <div class="popup-body" id="popupBody"></div>
+  </section>
+
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

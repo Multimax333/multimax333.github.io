@@ -1,0 +1,1083 @@
+{
+  "headline": {
+    "type": "tags",
+    "color": "mkt",
+    "title": {
+      "en": "Three hats, one person",
+      "th": "สามบทบาทในคนเดียว"
+    },
+    "tags": [
+      {
+        "label": {
+          "en": "Marketing",
+          "th": "การตลาด"
+        },
+        "color": "mkt",
+        "targets": [
+          "icons-ads"
+        ]
+      },
+      {
+        "label": {
+          "en": "3D & Game",
+          "th": "3D และเกม"
+        },
+        "color": "threed",
+        "targets": [
+          "dyingland",
+          "threed",
+          "icons-3d"
+        ]
+      },
+      {
+        "label": {
+          "en": "Creative",
+          "th": "ครีเอทีฟ"
+        },
+        "color": "video",
+        "targets": [
+          "tem",
+          "predator",
+          "khunmadam",
+          "icons-design"
+        ]
+      },
+      {
+        "label": {
+          "en": "Code & AI",
+          "th": "โค้ดและ AI"
+        },
+        "color": "code",
+        "targets": [
+          "nongwatt",
+          "icons-ai",
+          "icons-dev",
+          "maxradar",
+          "icons-ops"
+        ]
+      }
+    ]
+  },
+  "predator": {
+    "type": "project",
+    "color": "video",
+    "side": "left",
+    "thumb": "assets/img/about/predator-award.thumb.webp",
+    "title": {
+      "en": "Thailand Predator League 2023 · Motion graphics training",
+      "th": "Thailand Predator League 2023 · ฝึกงาน Motion Graphic"
+    },
+    "tag": {
+      "en": "Trained with 9up Idea · 3-day on-site event · Certificate from Predator · 2023",
+      "th": "เรียนรู้งานกับ 9up Idea · ออกงาน Offline 3 วัน · เกียรติบัตรจาก Predator · 2566"
+    },
+    "blurb": {
+      "en": "Studied esports motion-graphics production with 9up Idea, then worked the Predator League Thailand event on-site for 3 days and received a Certificate of Training from Predator.",
+      "th": "ศึกษางาน Motion Graphic อีสปอร์ตกับทีม 9up Idea แล้วออกงาน Predator League Thailand แบบ Offline 3 วัน พร้อมรับเกียรติบัตรการฝึกอบรมจาก Predator"
+    },
+    "popup": [
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "assets/img/about/predator-award.webp",
+            "cap": {
+              "en": "Receiving the Certificate of Training from Predator, Thailand Predator League 2023",
+              "th": "รับเกียรติบัตรการฝึกอบรมจาก Predator ในงาน Thailand Predator League 2023"
+            }
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": {
+          "en": "What I did",
+          "th": "สิ่งที่ทำ"
+        },
+        "steps": [
+          {
+            "en": "Learned the esports motion-graphics workflow from 9up Idea: lower-thirds, transitions, team intros in After Effects",
+            "th": "เรียนรู้กระบวนการทำ Motion Graphic อีสปอร์ตจาก 9up Idea ทั้ง Lower-third, Transition และ Intro ทีม ด้วย After Effects"
+          },
+          {
+            "en": "Worked the Predator League Thailand live event on-site for 3 days with the production crew",
+            "th": "ออกงาน Predator League Thailand หน้างานแบบ Offline 3 วัน ร่วมกับทีมโปรดักชัน"
+          },
+          {
+            "en": "Received a Certificate of Training in motion graphics from Predator",
+            "th": "ได้รับเกียรติบัตรการฝึกอบรมด้าน Motion Graphic จาก Predator"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "body": {
+          "en": "Showreel coming soon.",
+          "th": "วิดีโอตัวอย่างกำลังตามมา"
+        }
+      }
+    ]
+  },
+  "sb-tour": {
+    "type": "project",
+    "color": "mkt",
+    "side": "right",
+    "thumb": "assets/img/sbuyhome/b15-raw.thumb.webp",
+    "title": {
+      "en": "Virtual Tour workflow",
+      "th": "กระบวนการ Virtual Tour"
+    },
+    "tag": {
+      "en": "Capture → edit → publish on pano.cool",
+      "th": "ถ่าย → ตัดต่อ → เผยแพร่บน pano.cool"
+    },
+    "blurb": {
+      "en": "Buyers walk through the house from their phone before booking a visit. Drag inside to look around.",
+      "th": "ผู้ซื้อเดินดูบ้านจากมือถือก่อนนัดจริง ลากในภาพเพื่อหมุนดูได้"
+    },
+    "popup": [
+      {
+        "type": "iframe",
+        "src": "https://pano.cool/@sahapat.sbuyhomecmPIz7qa/b15",
+        "link": "https://pano.cool/@sahapat.sbuyhomecmPIz7qa/b15",
+        "label": {
+          "en": "Open the 360° tour in a new tab",
+          "th": "เปิด Virtual Tour 360° ในแท็บใหม่"
+        }
+      }
+    ]
+  },
+  "dyingland": {
+    "type": "project",
+    "color": "threed",
+    "side": "left",
+    "thumb": "assets/img/dyingland/reznov-persp.thumb.webp",
+    "title": {
+      "en": "Dying Land · Unity survival game",
+      "th": "Dying Land · เกมเอาชีวิตรอดบน Unity"
+    },
+    "tag": {
+      "en": "Final-year thesis · 3D Asset Artist · 2025",
+      "th": "โปรเจกต์จบ · 3D Asset Artist · 2568"
+    },
+    "blurb": {
+      "en": "I made every 3D model in the game: the main character, both enemies, the car wreck, the lab props and the garage map, from blockout to Unity.",
+      "th": "ผมปั้นโมเดล 3D ทุกชิ้นในเกม ทั้งตัวละครหลัก ศัตรู 2 ตัว ซากรถ พร็อพห้องแล็บ และฉากโรงรถ ตั้งแต่ Blockout จนเข้า Unity"
+    },
+    "popup": [
+      {
+        "type": "video",
+        "youtube": "zhyAkwRAu7M",
+        "cap": {
+          "en": "Gameplay",
+          "th": "เกมเพลย์"
+        }
+      },
+      {
+        "type": "text",
+        "heading": {
+          "en": "My role",
+          "th": "บทบาทของผม"
+        },
+        "body": {
+          "en": "3D Asset Artist on a team thesis. Responsible for all 3D models used in the game, including characters, enemies, weapons and props, plus UV mapping and texturing so everything looks right and runs well in Unity.",
+          "th": "3D Asset Artist ในทีมโปรเจกต์จบ รับผิดชอบโมเดล 3D ทั้งหมดในเกม ทั้งตัวละคร ศัตรู อาวุธ และพร็อพ รวมถึงกาง UV และทำเท็กซ์เจอร์ให้สวยและรันลื่นใน Unity"
+        }
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "assets/img/dyingland/reznov-persp.webp",
+            "cap": {
+              "en": "Main character “Reznov”, textured",
+              "th": "ตัวละครหลัก “Reznov” หลังลงเท็กซ์เจอร์"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/reznov-front.webp",
+            "cap": {
+              "en": "Reznov, front",
+              "th": "Reznov ด้านหน้า"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/reznov-back.webp",
+            "cap": {
+              "en": "Reznov, back",
+              "th": "Reznov ด้านหลัง"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/spider-persp.webp",
+            "cap": {
+              "en": "Main enemy “Evil Spider”",
+              "th": "ศัตรูหลัก “Evil Spider”"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/spider-front.webp",
+            "cap": {
+              "en": "Evil Spider, front",
+              "th": "Evil Spider ด้านหน้า"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/zombie-persp.webp",
+            "cap": {
+              "en": "Enemy “Zombie”",
+              "th": "ศัตรู “Zombie”"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/zombie-front.webp",
+            "cap": {
+              "en": "Zombie, front",
+              "th": "Zombie ด้านหน้า"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/car-wreck.webp",
+            "cap": {
+              "en": "Car wreck prop, Substance Painter texturing",
+              "th": "ซากรถ ลงเท็กซ์เจอร์ด้วย Substance Painter"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/garage.webp",
+            "cap": {
+              "en": "Garage environment in Unity",
+              "th": "ฉากโรงรถใน Unity"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/props-sheet.webp",
+            "cap": {
+              "en": "Lab props: lockers, med station, shelves, consoles",
+              "th": "พร็อพห้องแล็บ: ล็อกเกอร์ จุดพยาบาล ชั้นวาง คอนโซล"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/gameplay-frame.webp",
+            "cap": {
+              "en": "In-game frame with the spider enemy",
+              "th": "เฟรมในเกมกับศัตรูแมงมุม"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/char-sheet.webp",
+            "cap": {
+              "en": "Character turnaround concept",
+              "th": "คอนเซปต์ Turnaround ตัวละคร"
+            }
+          },
+          {
+            "src": "assets/img/dyingland/logo.webp",
+            "cap": {
+              "en": "Game logo",
+              "th": "โลโก้เกม"
+            }
+          }
+        ]
+      },
+      {
+        "type": "compare",
+        "heading": {
+          "en": "Blockout → textured",
+          "th": "Blockout → ลงเท็กซ์เจอร์"
+        },
+        "before": "assets/img/dyingland/car-blockout.webp",
+        "after": "assets/img/dyingland/car-wreck.webp",
+        "labels": {
+          "before": {
+            "en": "Blockout",
+            "th": "Blockout"
+          },
+          "after": {
+            "en": "Textured",
+            "th": "เท็กซ์เจอร์"
+          }
+        }
+      },
+      {
+        "type": "compare",
+        "heading": {
+          "en": "Map: Blender → Unity",
+          "th": "แผนที่: Blender → Unity"
+        },
+        "before": "assets/img/dyingland/map-blockout.webp",
+        "after": "assets/img/dyingland/map-unity.webp",
+        "labels": {
+          "before": {
+            "en": "Blender",
+            "th": "Blender"
+          },
+          "after": {
+            "en": "Unity",
+            "th": "Unity"
+          }
+        }
+      },
+      {
+        "type": "grid",
+        "heading": {
+          "en": "Rigging & props",
+          "th": "Rigging และพร็อพ"
+        },
+        "cols": 2,
+        "images": [
+          "assets/img/dyingland/spider-rig.webp",
+          "assets/img/dyingland/props-row.webp"
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": {
+          "en": "Pipeline",
+          "th": "ขั้นตอนการทำงาน"
+        },
+        "steps": [
+          {
+            "en": "Blockout in Blender",
+            "th": "Blockout ใน Blender"
+          },
+          {
+            "en": "Sculpt / model & retopo",
+            "th": "ปั้น / โมเดล และ Retopo"
+          },
+          {
+            "en": "UV + bake",
+            "th": "กาง UV และ Bake"
+          },
+          {
+            "en": "Texture in Substance Painter",
+            "th": "เท็กซ์เจอร์ใน Substance Painter"
+          },
+          {
+            "en": "Rig, weight paint, animate",
+            "th": "Rig, Weight paint, แอนิเมต"
+          },
+          {
+            "en": "Import & set up in Unity",
+            "th": "นำเข้าและเซ็ตใน Unity"
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "links": [
+          {
+            "href": "https://github.com/",
+            "label": {
+              "en": "Source on GitHub",
+              "th": "ซอร์สโค้ดบน GitHub"
+            },
+            "pending": true
+          },
+          {
+            "href": "#",
+            "label": {
+              "en": "Download Windows build",
+              "th": "ดาวน์โหลด Build สำหรับ Windows"
+            },
+            "pending": true
+          }
+        ]
+      }
+    ]
+  },
+  "tem": {
+    "type": "project",
+    "color": "video",
+    "side": "left",
+    "thumb": "assets/img/tem/ewc-highlight.thumb.webp",
+    "title": {
+      "en": "TEM Entertainment · Esports content",
+      "th": "TEM Entertainment · คอนเทนต์อีสปอร์ต"
+    },
+    "tag": {
+      "en": "Graphic Designer Intern · ACE Digital Group · 2024",
+      "th": "ฝึกงาน Graphic Designer · ACE Digital Group · 2567"
+    },
+    "blurb": {
+      "en": "YouTube thumbnails, player posters and highlight covers for a PUBG pro team, produced on-site with the production crew.",
+      "th": "Thumbnail YouTube โปสเตอร์นักกีฬา และปกไฮไลต์ให้ทีม PUBG อาชีพ ทำหน้างานร่วมกับทีมโปรดักชัน"
+    },
+    "popup": [
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "assets/img/tem/ewc-highlight.webp",
+            "cap": {
+              "en": "Esports World Cup highlight thumbnail",
+              "th": "Thumbnail ไฮไลต์ Esports World Cup"
+            }
+          },
+          {
+            "src": "assets/img/tem/pts-highlight.webp",
+            "cap": {
+              "en": "PUBG Thailand Series player highlight",
+              "th": "ไฮไลต์นักกีฬา PUBG Thailand Series"
+            }
+          },
+          {
+            "src": "assets/img/tem/poster.webp",
+            "cap": {
+              "en": "Team poster",
+              "th": "โปสเตอร์ทีม"
+            }
+          },
+          {
+            "src": "assets/img/tem/kamtongham.webp",
+            "cap": {
+              "en": "Player feature",
+              "th": "ภาพนักกีฬา"
+            }
+          },
+          {
+            "src": "assets/img/tem/poksalem.webp",
+            "cap": {
+              "en": "Highlight cover",
+              "th": "ปกไฮไลต์"
+            }
+          },
+          {
+            "src": "assets/img/tem/pubg.webp",
+            "cap": {
+              "en": "Match graphic",
+              "th": "กราฟิกแมตช์"
+            }
+          }
+        ]
+      },
+      {
+        "type": "grid",
+        "heading": {
+          "en": "Media day, on-site with the team",
+          "th": "Media day ทำงานหน้างานกับทีม"
+        },
+        "cols": 4,
+        "images": [
+          "assets/img/tem/mediaday-1.webp",
+          "assets/img/tem/mediaday-2.webp",
+          "assets/img/tem/mediaday-3.webp",
+          "assets/img/tem/mediaday-4.webp"
+        ]
+      }
+    ]
+  },
+  "khunmadam": {
+    "type": "project",
+    "color": "code",
+    "side": "left",
+    "thumb": "assets/img/khunmadam/mascot-01.thumb.webp",
+    "thumbFit": "contain",
+    "thumbBg": "#F3F0E8",
+    "title": {
+      "en": "KhunMadam · A bookshop with a face",
+      "th": "KhunMadam · ร้านหนังสือที่มีตัวตน"
+    },
+    "tag": {
+      "en": "Brand · Mascot · LINE Rich Menu · Web · 2025",
+      "th": "แบรนด์ · Mascot · LINE Rich Menu · เว็บ · 2568"
+    },
+    "blurb": {
+      "en": "A self-development bookshop run as a side project. I designed the mascot, color system, Rich Menu, content cards and built the storefront.",
+      "th": "ร้านหนังสือพัฒนาตัวเองที่ทำเป็นงานอดิเรก ผมออกแบบ Mascot ระบบสี Rich Menu การ์ดคอนเทนต์ และสร้างหน้าร้านเอง"
+    },
+    "popup": [
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "assets/img/khunmadam/mascot-01.webp",
+            "cap": {
+              "en": "KhunMadam, the mascot",
+              "th": "คุณมาดาม Mascot ของร้าน"
+            }
+          },
+          {
+            "src": "assets/img/khunmadam/mascot-02.webp",
+            "cap": {
+              "en": "Reading pose",
+              "th": "ท่าอ่านหนังสือ"
+            }
+          },
+          {
+            "src": "assets/img/khunmadam/mascot-03.webp",
+            "cap": {
+              "en": "Recommending",
+              "th": "ท่าแนะนำ"
+            }
+          },
+          {
+            "src": "assets/img/khunmadam/mascot-04.webp",
+            "cap": {
+              "en": "Cheering",
+              "th": "ท่าให้กำลังใจ"
+            }
+          },
+          {
+            "src": "assets/img/khunmadam/mascot-05.webp",
+            "cap": {
+              "en": "Thanks",
+              "th": "ท่าขอบคุณ"
+            }
+          },
+          {
+            "src": "assets/img/khunmadam/mascot-06.webp",
+            "cap": {
+              "en": "Avatar",
+              "th": "อวตาร"
+            }
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "assets/img/khunmadam/richmenu-green.webp",
+            "cap": {
+              "en": "LINE Rich Menu, main theme: bookshelf, store, special topics, shipping policy, order status, chat",
+              "th": "LINE Rich Menu ธีมหลัก: ชั้นหนังสือ ร้านหนังสือ หัวข้อพิเศษ ค่าส่งและนโยบาย ถามเรื่องออเดอร์ คุยกับคุณมาดาม"
+            }
+          },
+          {
+            "src": "assets/img/khunmadam/web-contact.webp",
+            "cap": {
+              "en": "Contact section on khunmadam.com: LINE, Instagram and TikTok with the mascot waving",
+              "th": "ส่วนติดต่อบน khunmadam.com: LINE, Instagram และ TikTok พร้อมคุณมาดามโบกมือ"
+            }
+          }
+        ]
+      },
+      {
+        "type": "grid",
+        "heading": {
+          "en": "Content cards, six moods",
+          "th": "การ์ดคอนเทนต์ 6 อารมณ์"
+        },
+        "images": [
+          "assets/img/khunmadam/card-01.webp",
+          "assets/img/khunmadam/card-02.webp",
+          "assets/img/khunmadam/card-03.webp",
+          "assets/img/khunmadam/card-04.webp",
+          "assets/img/khunmadam/card-05.webp",
+          "assets/img/khunmadam/card-06.webp"
+        ]
+      },
+      {
+        "type": "grid",
+        "heading": {
+          "en": "khunmadam.com on mobile",
+          "th": "khunmadam.com บนมือถือ"
+        },
+        "cols": 4,
+        "images": [
+          "assets/img/khunmadam/web-01.webp",
+          "assets/img/khunmadam/web-02.webp",
+          "assets/img/khunmadam/web-03.webp",
+          "assets/img/khunmadam/web-04.webp"
+        ]
+      },
+      {
+        "type": "links",
+        "links": [
+          {
+            "href": "https://khunmadam.com",
+            "label": {
+              "en": "Visit khunmadam.com",
+              "th": "เข้าชม khunmadam.com"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "nongwatt": {
+    "type": "project",
+    "color": "code",
+    "side": "right",
+    "thumb": "assets/img/nongwatt/mascot.thumb.webp",
+    "title": {
+      "en": "PrayadFaiBot · Explains your electricity bill",
+      "th": "PrayadFaiBot · บอทอธิบายบิลค่าไฟ"
+    },
+    "tag": {
+      "en": "Telegram bot · Python · @NongWatt_bot · 2026",
+      "th": "บอท Telegram · Python · @NongWatt_bot · 2569"
+    },
+    "blurb": {
+      "en": "Type your tariff type and units, get the estimated bill with energy, service, Ft and VAT broken down, in plain Thai.",
+      "th": "พิมพ์ประเภทมิเตอร์กับหน่วยที่ใช้ บอทคำนวณบิลโดยแยกค่าพลังงาน ค่าบริการ ค่า Ft และ VAT เป็นภาษาคน"
+    },
+    "popup": [
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "assets/img/nongwatt/telegram.webp",
+            "cap": {
+              "en": "Live conversation: PEA type 3.2.3 TOU, on-peak 6,999 / off-peak 8,000 units",
+              "th": "บทสนทนาจริง: กฟภ. ประเภท 3.2.3 TOU, On-Peak 6,999 / Off-Peak 8,000 หน่วย"
+            }
+          },
+          {
+            "src": "assets/img/nongwatt/mascot.webp",
+            "cap": {
+              "en": "NongWatt, the bot's mascot",
+              "th": "น้องวัตต์ Mascot ของบอท"
+            }
+          }
+        ]
+      },
+      {
+        "type": "steps",
+        "heading": {
+          "en": "How it works",
+          "th": "ทำงานอย่างไร"
+        },
+        "steps": [
+          {
+            "en": "User sends tariff type + units (or on/off-peak split)",
+            "th": "ผู้ใช้ส่งประเภทอัตรา + หน่วย (หรือแยก On/Off-Peak)"
+          },
+          {
+            "en": "Bot looks up the current PEA/MEA rate tables and Ft announcement",
+            "th": "บอทดึงตารางอัตรา กฟภ./กฟน. และประกาศค่า Ft ปัจจุบัน"
+          },
+          {
+            "en": "Calculates energy, service, Ft and 7% VAT",
+            "th": "คำนวณค่าพลังงาน ค่าบริการ ค่า Ft และ VAT 7%"
+          },
+          {
+            "en": "Replies with the total and a line-by-line breakdown plus caveats",
+            "th": "ตอบยอดรวมพร้อมรายละเอียดรายบรรทัดและข้อควรระวัง"
+          }
+        ]
+      },
+      {
+        "type": "links",
+        "links": [
+          {
+            "href": "https://t.me/NongWatt_bot",
+            "label": {
+              "en": "Chat with the bot on Telegram",
+              "th": "ลองคุยกับบอทบน Telegram"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "threed": {
+    "type": "project",
+    "color": "threed",
+    "side": "left",
+    "thumb": "assets/img/kaiju/textured-full.thumb.webp",
+    "title": {
+      "en": "Concept art → 3D · Fan art & environments",
+      "th": "Concept art → 3D · แฟนอาร์ตและฉาก"
+    },
+    "tag": {
+      "en": "Blender · Substance Painter · Marmoset",
+      "th": "Blender · Substance Painter · Marmoset"
+    },
+    "blurb": {
+      "en": "Kaiju No. 8, Kikoru’s axe, a Valorant pro, Frieren, a cat, a flower field and a Thai street diorama. Personal studies that keep the pipeline sharp.",
+      "th": "Kaiju No. 8, ขวานของ Kikoru, โปรเพลเยอร์ Valorant, Frieren, แมว, ทุ่งดอกไม้ และไดโอรามาถนนไทย งานฝึกส่วนตัวที่ทำให้ Pipeline ไม่ตก"
+    },
+    "popup": [
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "assets/img/kaiju/textured-full.webp",
+            "cap": {
+              "en": "Hibino Kafka, Kaiju No. 8 — textured",
+              "th": "Hibino Kafka จาก Kaiju No. 8 หลังลงเท็กซ์เจอร์"
+            }
+          },
+          {
+            "src": "assets/img/kaiju/sculpt-views.webp",
+            "cap": {
+              "en": "Kaiju No. 8 — high-poly sculpt, back / front / side",
+              "th": "Kaiju No. 8 — High-poly sculpt หลัง / หน้า / ข้าง"
+            }
+          },
+          {
+            "src": "assets/img/kaiju/kikoru-weapon.webp",
+            "cap": {
+              "en": "Kikoru’s weapon O3 AX-0112",
+              "th": "อาวุธของ Kikoru O3 AX-0112"
+            }
+          },
+          {
+            "src": "assets/img/kaiju/lowpoly.webp",
+            "cap": {
+              "en": "Game-ready low poly, 26.9k tris",
+              "th": "Low-poly พร้อมใช้ในเกม 26.9k tris"
+            }
+          },
+          {
+            "src": "assets/img/3d/cat.webp",
+            "cap": {
+              "en": "Cat character",
+              "th": "ตัวละครแมว"
+            }
+          },
+          {
+            "src": "assets/img/3d/demon1.webp",
+            "cap": {
+              "en": "Demon1 (Valorant pro player) fan art",
+              "th": "แฟนอาร์ต Demon1 โปรเพลเยอร์ Valorant"
+            }
+          },
+          {
+            "src": "assets/img/3d/frieren.webp",
+            "cap": {
+              "en": "Frieren fan art",
+              "th": "แฟนอาร์ต Frieren"
+            }
+          },
+          {
+            "src": "assets/img/3d/flower-field-sky.webp",
+            "cap": {
+              "en": "Flower field environment",
+              "th": "ฉากทุ่งดอกไม้"
+            }
+          },
+          {
+            "src": "assets/img/3d/thai-lume.webp",
+            "cap": {
+              "en": "Thai Lume — 3D animation diorama",
+              "th": "Thai Lume ไดโอรามาแอนิเมชัน 3D"
+            }
+          }
+        ]
+      },
+      {
+        "type": "compare",
+        "heading": {
+          "en": "Kaiju No. 8: sculpt → textured",
+          "th": "Kaiju No. 8: ปั้น → ลงเท็กซ์เจอร์"
+        },
+        "before": "assets/img/kaiju/sculpt-wip.webp",
+        "after": "assets/img/kaiju/textured.webp",
+        "labels": {
+          "before": {
+            "en": "Sculpt",
+            "th": "ปั้น"
+          },
+          "after": {
+            "en": "Textured",
+            "th": "เท็กซ์เจอร์"
+          }
+        }
+      },
+      {
+        "type": "compare",
+        "heading": {
+          "en": "Flower: wireframe → render",
+          "th": "ดอกไม้: Wireframe → Render"
+        },
+        "before": "assets/img/3d/flower-wire.webp",
+        "after": "assets/img/3d/flower-render.webp",
+        "labels": {
+          "before": {
+            "en": "Wireframe",
+            "th": "Wireframe"
+          },
+          "after": {
+            "en": "Render",
+            "th": "Render"
+          }
+        }
+      },
+      {
+        "type": "note",
+        "body": {
+          "en": "Interactive 3D viewer (rotate the Kaiju and Cat models) is coming once the .glb exports are ready.",
+          "th": "ตัวหมุนโมเดล 3D (Kaiju และแมว) จะเพิ่มเมื่อ Export .glb เสร็จ"
+        }
+      }
+    ],
+    "thumbFit": "contain",
+    "thumbBg": "#ffffff"
+  },
+  "icons-ads": {
+    "type": "icons",
+    "color": "mkt",
+    "side": "right",
+    "icons": [
+      {
+        "name": "Meta Ads Manager",
+        "src": "https://cdn.simpleicons.org/meta/0866FF"
+      },
+      {
+        "name": "Google Ads",
+        "src": "https://cdn.simpleicons.org/googleads/4285F4"
+      },
+      {
+        "name": "GA4",
+        "src": "https://cdn.simpleicons.org/googleanalytics/E37400"
+      }
+    ]
+  },
+  "icons-3d": {
+    "type": "icons",
+    "color": "threed",
+    "side": "right",
+    "icons": [
+      {
+        "name": "Blender",
+        "src": "assets/img/icons/blender.png"
+      },
+      {
+        "name": "Maya",
+        "src": "https://cdn.simpleicons.org/autodeskmaya/37A5CC"
+      },
+      {
+        "name": "Substance Painter",
+        "src": "assets/img/icons/substance.png"
+      },
+      {
+        "name": "Marmoset",
+        "initials": "Mt",
+        "bg": "#2b2b2b"
+      }
+    ]
+  },
+  "icons-adobe": {
+    "type": "icons",
+    "color": "video",
+    "side": "right",
+    "icons": [
+      {
+        "name": "Photoshop",
+        "src": "assets/img/icons/photoshop.png"
+      },
+      {
+        "name": "After Effects",
+        "src": "assets/img/icons/aftereffects.png"
+      },
+      {
+        "name": "Premiere Pro",
+        "src": "assets/img/icons/premiere.png"
+      }
+    ]
+  },
+  "icons-ai": {
+    "type": "icons",
+    "color": "code",
+    "side": "right",
+    "icons": [
+      {
+        "name": "Claude",
+        "src": "https://cdn.simpleicons.org/claude/D97757"
+      },
+      {
+        "name": "ChatGPT",
+        "initials": "GPT",
+        "bg": "#10A37F"
+      },
+      {
+        "name": "Gemini",
+        "src": "https://cdn.simpleicons.org/googlegemini/8E75B2"
+      },
+      {
+        "name": "Midjourney",
+        "initials": "MJ",
+        "bg": "#1a1a1a"
+      },
+      {
+        "name": "Perplexity",
+        "src": "https://cdn.simpleicons.org/perplexity/1FB8CD"
+      }
+    ]
+  },
+  "icons-dev": {
+    "type": "icons",
+    "color": "code",
+    "side": "right",
+    "icons": [
+      {
+        "name": "Unity",
+        "src": "https://cdn.simpleicons.org/unity/000000"
+      },
+      {
+        "name": "HTML",
+        "src": "https://cdn.simpleicons.org/html5/E34F26"
+      },
+      {
+        "name": "CSS",
+        "src": "https://cdn.simpleicons.org/css/663399"
+      },
+      {
+        "name": "C#",
+        "initials": "C#",
+        "bg": "#512BD4"
+      },
+      {
+        "name": "n8n",
+        "src": "https://cdn.simpleicons.org/n8n/EA4B71"
+      }
+    ]
+  },
+  "maxradar": {
+    "type": "project",
+    "color": "code",
+    "side": "right",
+    "thumb": "assets/img/maxradar/dashboard-1.thumb.webp",
+    "title": {
+      "en": "MaxRadar · Stock watchlist bot with AI commentary",
+      "th": "MaxRadar · บอทติดตามหุ้นพร้อมความเห็นจาก AI"
+    },
+    "tag": {
+      "en": "Python · Telegram · Claude API · yfinance · 2026",
+      "th": "Python · Telegram · Claude API · yfinance · 2569"
+    },
+    "blurb": {
+      "en": "Tracks 28 stocks, computes entry zones in code, lets Claude write Thai commentary, and answers questions on Telegram with charts and news. Price numbers are never generated by AI.",
+      "th": "ติดตามหุ้น 28 ตัว คำนวณโซนเข้าด้วยโค้ด ให้ Claude เขียนความเห็นภาษาไทย และตอบคำถามบน Telegram พร้อมกราฟและข่าว โดย AI ห้ามแต่งตัวเลขราคา"
+    },
+    "popup": [
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "assets/img/maxradar/dashboard-1.webp",
+            "cap": {
+              "en": "Desktop dashboard: status filters, entry zone, stop, target and R:R per stock (demo data)",
+              "th": "Dashboard บน Desktop: ตัวกรองสถานะ โซนเข้า Stop เป้า และ R:R รายตัว (ข้อมูลจำลอง)"
+            }
+          },
+          {
+            "src": "assets/img/maxradar/dashboard-2.webp",
+            "cap": {
+              "en": "Each card: 180-day chart with MA50 / MA200, zone band and AI commentary",
+              "th": "การ์ดแต่ละใบ: กราฟ 180 วัน พร้อม MA50 / MA200 แถบโซน และความเห็นจาก AI"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "heading": {
+          "en": "The rule: AI never invents a price",
+          "th": "กฎสำคัญ: AI ห้ามแต่งตัวเลขราคา"
+        },
+        "body": {
+          "en": "Every number (entry zone, stop, target) is computed from swing pivots, MA50/200 and ATR in Python. Claude only receives the price position, RSI meaning and trend, and writes a short Thai opinion. Any reply containing a number not in the input, or contradicting the MA/RSI position, is discarded and a fallback text is used.",
+          "th": "ตัวเลขทุกตัว (โซนเข้า Stop เป้า) คำนวณจาก Swing pivot, MA50/200 และ ATR ใน Python ส่วน Claude ได้รับแค่ตำแหน่งราคา ความหมายของ RSI และแนวโน้ม แล้วเขียนความเห็นสั้น ๆ ภาษาไทย ถ้าคำตอบมีตัวเลขนอก input หรือขัดกับตำแหน่ง MA/RSI จะถูกปัดทิ้งและใช้ข้อความสำรองแทน"
+        }
+      },
+      {
+        "type": "steps",
+        "heading": {
+          "en": "What it does",
+          "th": "ทำอะไรได้บ้าง"
+        },
+        "steps": [
+          {
+            "en": "06:00 prepares charts, commentary and news for all 28 stocks; 06:30 pushes a market update to Telegram",
+            "th": "06:00 เตรียมกราฟ ความเห็น และข่าวของหุ้นทั้ง 28 ตัว; 06:30 ส่งอัปเดตตลาดเข้า Telegram"
+          },
+          {
+            "en": "Understands tickers, company names, Thai nicknames and typos (\"เทสล่าน่าซื้อไหม\")",
+            "th": "เข้าใจทั้งชื่อย่อ ชื่อบริษัท ชื่อเล่นไทย และคำสะกดผิด (\"เทสล่าน่าซื้อไหม\")"
+          },
+          {
+            "en": "Picks: in-zone stocks with R:R ≥ 1; long-term: price and MA50 above MA200",
+            "th": "หุ้นน่าจับตา: อยู่ในโซนและ R:R ≥ 1; ถือยาว: ราคาและ MA50 เหนือ MA200"
+          },
+          {
+            "en": "News from Yahoo and Finnhub (last 36 h) rated positive / negative / mixed with citations",
+            "th": "ข่าวจาก Yahoo และ Finnhub (36 ชม.ล่าสุด) ประเมินบวก / ลบ / ผสม พร้อมอ้างอิง"
+          },
+          {
+            "en": "Rate limit 10 questions/min per chat; only whitelisted chats can use it",
+            "th": "จำกัด 10 คำถาม/นาทีต่อแชต และตอบเฉพาะแชตที่อนุญาต"
+          }
+        ]
+      },
+      {
+        "type": "note",
+        "body": {
+          "en": "Personal decision-support tool, not investment advice. Code is in a private repo; happy to walk through it on request.",
+          "th": "เครื่องมือประกอบการตัดสินใจส่วนตัว ไม่ใช่คำแนะนำการลงทุน โค้ดอยู่ใน repo ส่วนตัว ยินดีอธิบายเพิ่มเมื่อสอบถาม"
+        }
+      }
+    ]
+  },
+  "icons-design": {
+    "type": "icons",
+    "color": "video",
+    "side": "right",
+    "icons": [
+      {
+        "name": "Canva",
+        "initials": "Cv",
+        "bg": "#00C4CC"
+      },
+      {
+        "name": "CapCut",
+        "initials": "CC",
+        "bg": "#000000"
+      },
+      {
+        "name": "Illustrator",
+        "initials": "Ai",
+        "bg": "#330000",
+        "fg": "#FF9A00"
+      },
+      {
+        "name": "Figma",
+        "src": "https://cdn.simpleicons.org/figma/F24E1E"
+      },
+      {
+        "name": "GIMP",
+        "src": "https://cdn.simpleicons.org/gimp/5C5543"
+      },
+      {
+        "name": "Photoroom",
+        "initials": "Pr",
+        "bg": "#111"
+      }
+    ]
+  },
+  "icons-ops": {
+    "type": "icons",
+    "color": "code",
+    "side": "right",
+    "icons": [
+      {
+        "name": "Git",
+        "src": "https://cdn.simpleicons.org/git/F05032"
+      },
+      {
+        "name": "GitHub",
+        "src": "https://cdn.simpleicons.org/github/181717"
+      },
+      {
+        "name": "LINE OA",
+        "src": "https://cdn.simpleicons.org/line/06C755"
+      },
+      {
+        "name": "Telegram",
+        "src": "https://cdn.simpleicons.org/telegram/26A5E4"
+      },
+      {
+        "name": "pano.cool 360°",
+        "initials": "360",
+        "bg": "#1E2A24"
+      },
+      {
+        "name": "Sheets",
+        "src": "https://cdn.simpleicons.org/googlesheets/34A853"
+      }
+    ]
+  }
+}
