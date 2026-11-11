@@ -1,6 +1,15 @@
 // Floating proof card + connector line (desktop only)
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+export function iconChip(ic) {
+  const img = ic.src
+    ? `<img src="${esc(ic.src)}" alt="" loading="lazy" onerror="this.parentNode.classList.add('initials');this.parentNode.style.background='#1E2A24';this.parentNode.textContent='${esc(ic.name.slice(0, 2))}'">`
+    : '';
+  const cls = ic.src ? '' : 'initials';
+  const style = ic.src ? '' : `style="background:${esc(ic.bg || '#1E2A24')};--fg:${esc(ic.fg || '#fff')}"`;
+  return `<div class="icon-chip"><div class="icon-img ${cls}" ${style}>${img || esc(ic.initials || ic.name.slice(0, 2))}</div><div class="icon-name">${esc(ic.name)}</div></div>`;
+}
+
 export class Cards {
   constructor({ el, connector, path, defs, onOpen, mascot, sheet }) {
     Object.assign(this, { el, connector, path, defs, onOpen, mascot, sheet });
@@ -11,21 +20,12 @@ export class Cards {
   }
   setContext(ctx) { this.ctx = ctx; if (this.current) this.render(this.current); }
 
-  iconChip(ic) {
-    const img = ic.src
-      ? `<img src="${esc(ic.src)}" alt="" loading="lazy" onerror="this.parentNode.classList.add('initials');this.parentNode.style.background='#1E2A24';this.parentNode.textContent='${esc(ic.name.slice(0, 2))}'">`
-      : '';
-    const cls = ic.src ? '' : 'initials';
-    const style = ic.src ? '' : `style="background:${esc(ic.bg || '#1E2A24')};--fg:${esc(ic.fg || '#fff')}"`;
-    return `<div class="icon-chip"><div class="icon-img ${cls}" ${style}>${img || esc(ic.initials || ic.name.slice(0, 2))}</div><div class="icon-name">${esc(ic.name)}</div></div>`;
-  }
-
   render(id) {
     const d = this.defs[id]; const t = this.ctx.t;
     this.el.dataset.color = d.color || 'mkt';
     this.el.classList.toggle('is-icons', d.type === 'icons');
     if (d.type === 'icons') {
-      this.el.innerHTML = `<div class="icon-row">${d.icons.map((i) => this.iconChip(i)).join('')}</div>`;
+      this.el.innerHTML = `<div class="icon-row">${d.icons.map((i) => iconChip(i)).join('')}</div>`;
     } else if (d.type === 'tags') {
       this.el.innerHTML = `<p class="card-title" style="margin-top:0">${esc(t(d.title))}</p><div class="tag-row">${d.tags.map((tg, i) => `<button class="tag-btn" data-i="${i}" style="--tb:var(--${esc(tg.color)})">${esc(t(tg.label))}</button>`).join('')}</div>`;
       this.el.querySelectorAll('.tag-btn').forEach((b) => b.addEventListener('click', (e) => { e.stopPropagation(); this.toggleFilter(d.tags[+b.dataset.i], b); }));

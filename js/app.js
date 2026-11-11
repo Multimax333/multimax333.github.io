@@ -4,7 +4,7 @@ import { renderResume } from './resume.js';
 import { Cards } from './cards.js';
 import { Popup } from './popup.js';
 
-const VERSION = '2026-11-11d'; // bump when data/*.json changes
+const VERSION = '2026-11-11e'; // bump when data/*.json changes
 const state = { lang: 'en', resume: null, cards: null };
 const $ = (s, r = document) => r.querySelector(s);
 const isMobile = () => window.matchMedia('(max-width: 900px)').matches;
@@ -33,6 +33,21 @@ async function setLang(lang) {
 
 let cards, popup;
 
+// mobile: highlight the lines that belong to a tag (headline "three hats" card)
+function lightLines(tag) {
+  const sheet = $('#sheet');
+  sheet.classList.add('is-filtering');
+  const lit = [...sheet.querySelectorAll('.hot')].filter((h) => tag.targets.includes(h.dataset.card));
+  sheet.querySelectorAll('.hot').forEach((h) => h.classList.toggle('is-lit', lit.includes(h)));
+  lit[0]?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+}
+function clearLights() {
+  const sheet = $('#sheet');
+  if (!sheet.classList.contains('is-filtering')) return;
+  sheet.classList.remove('is-filtering');
+  sheet.querySelectorAll('.is-lit').forEach((h) => h.classList.remove('is-lit'));
+}
+
 function wireHotLines() {
   const hots = document.querySelectorAll('.hot');
   hots.forEach((el, i) => {
@@ -51,7 +66,7 @@ function wireHotLines() {
     el.addEventListener('blur', () => { if (!isMobile()) cards.scheduleHide(); });
     el.addEventListener('click', (e) => {
       e.preventDefault();
-      if (isMobile()) { popup.open(id); return; }
+      if (isMobile()) { popup.open(id, { title: el.textContent.replace(el.querySelector('.tap')?.textContent || '', '').trim() }); return; }
       if (def.type === 'icons' || def.type === 'tags') { cards.pin(el, id); return; }
       // desktop: click on line pins; second click opens
       if (cards.isPinned(el)) popup.open(id); else cards.pin(el, id);
@@ -92,7 +107,7 @@ function wireMascot() {
 (async function init() {
   state.cards = await loadJSON(`data/cards.json?v=${VERSION}`);
   cards = new Cards({ el: $('#card'), connector: $('#connector'), path: $('#connectorPath'), defs: state.cards, onOpen: (id) => popup.open(id), mascot: $('#mascot'), sheet: $('#sheet') });
-  popup = new Popup({ el: $('#popup'), backdrop: $('#popupBackdrop'), defs: state.cards, onClose: () => cards.hideNow() });
+  popup = new Popup({ el: $('#popup'), backdrop: $('#popupBackdrop'), defs: state.cards, onClose: () => cards.hideNow(), onFilter: lightLines });
 
   let lang = 'en';
   try { lang = localStorage.getItem('lang') || (navigator.language.startsWith('th') ? 'th' : 'en'); } catch {}
@@ -102,7 +117,7 @@ function wireMascot() {
   window.addEventListener('hashchange', openFromHash);
   window.addEventListener('resize', () => cards.reposition());
   window.addEventListener('scroll', () => cards.reposition(), { passive: true });
-  document.addEventListener('click', (e) => { if (!e.target.closest('.hot') && !e.target.closest('.card')) cards.unpin(); });
+  document.addEventListener('click', (e) => { if (!e.target.closest('.hot') && !e.target.closest('.card')) { cards.unpin(); clearLights(); } });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && $('#popup').hidden) { cards.unpin(); cards.hideNow(); } });
 
   wireMascot();

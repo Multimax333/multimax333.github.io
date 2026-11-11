@@ -1,9 +1,10 @@
 // Popup (desktop modal) / bottom sheet (mobile) that shows the full proof
+import { iconChip } from './cards.js';
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 export class Popup {
-  constructor({ el, backdrop, defs, onClose }) {
-    Object.assign(this, { el, backdrop, defs, onClose });
+  constructor({ el, backdrop, defs, onClose, onFilter }) {
+    Object.assign(this, { el, backdrop, defs, onClose, onFilter });
     this.ctx = { lang: 'en', ui: {}, t: (v) => v };
     this.body = el.querySelector('#popupBody');
     el.querySelector('#popupClose').addEventListener('click', () => this.close());
@@ -17,15 +18,30 @@ export class Popup {
   }
   setContext(ctx) { this.ctx = ctx; if (!this.el.hidden && this.currentId) this.open(this.currentId, { silent: true }); }
 
-  open(id, { silent } = {}) {
-    const d = this.defs[id]; if (!d || d.type !== 'project') return;
+  open(id, { silent, title } = {}) {
+    const d = this.defs[id]; if (!d) return;
     const t = this.ctx.t;
     this.currentId = id;
     this.el.dataset.color = d.color || 'mkt';
-    this.el.querySelector('#popupTitle').textContent = t(d.title);
-    this.el.querySelector('#popupTag').textContent = t(d.tag);
-    this.body.innerHTML = d.popup.map((b, i) => this.block(b, i)).join('');
-    this.wire();
+    this.el.querySelector('#popupTag').textContent = d.type === 'project' ? t(d.tag) : (this.ctx.ui.proof || 'proof');
+    if (d.type === 'icons') {
+      this.el.querySelector('#popupTitle').textContent = title || '';
+      this.body.innerHTML = `<div class="icon-row pb-icons">${d.icons.map((i) => iconChip(i)).join('')}</div>`;
+      silent = true;
+    } else if (d.type === 'tags') {
+      this.el.querySelector('#popupTitle').textContent = t(d.title);
+      this.body.innerHTML = `<div class="tag-row">${d.tags.map((tg, i) => `<button class="tag-btn" type="button" data-i="${i}" style="--tb:var(--${esc(tg.color)})">${esc(t(tg.label))}</button>`).join('')}</div>`;
+      this.body.querySelectorAll('.tag-btn').forEach((b) => b.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const tag = d.tags[+b.dataset.i];
+        this.close(); this.onFilter?.(tag);
+      }));
+      silent = true;
+    } else if (d.type === 'project') {
+      this.el.querySelector('#popupTitle').textContent = t(d.title);
+      this.body.innerHTML = d.popup.map((b, i) => this.block(b, i)).join('');
+      this.wire();
+    } else return;
     this.el.hidden = false; this.backdrop.hidden = false;
     this.el.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';

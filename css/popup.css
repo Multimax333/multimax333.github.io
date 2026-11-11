@@ -136,3 +136,11 @@ html[lang="th"] .pb-h { letter-spacing: 0; text-transform: none; font-size: 14px
   .grid { --cols: 2 !important; }
   .gal-main { aspect-ratio: 4 / 3; }
 }
+
+/* icons inside the popup / bottom sheet */
+.pb-icons { gap: 16px; }
+.pb-icons .icon-chip { width: 76px; }
+.pb-icons .icon-img { width: 56px; height: 56px; }
+.pb-icons .icon-img img { width: 34px; height: 34px; }
+.pb-icons .icon-name { font-size: 12px; }
+.popup-body .tag-btn { font-size: 15px; padding: 9px 16px; }
