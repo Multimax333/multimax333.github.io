@@ -1,5 +1,5 @@
 // Popup (desktop modal) / bottom sheet (mobile) that shows the full proof
-import { iconChip } from './cards.js';
+import { iconChip } from './cards.js?v=2026-11-11f';
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 export class Popup {

@@ -1,10 +1,10 @@
 // Interactive resume: renders the sheet from JSON, floats proof cards on hover,
 // opens a popup (desktop) / bottom sheet (mobile) with the work.
-import { renderResume } from './resume.js';
-import { Cards } from './cards.js';
-import { Popup } from './popup.js';
+import { renderResume } from './resume.js?v=2026-11-11f';
+import { Cards } from './cards.js?v=2026-11-11f';
+import { Popup } from './popup.js?v=2026-11-11f';
 
-const VERSION = '2026-11-11e'; // bump when data/*.json changes
+const VERSION = '2026-11-11f'; // bump when data/*.json changes
 const state = { lang: 'en', resume: null, cards: null };
 const $ = (s, r = document) => r.querySelector(s);
 const isMobile = () => window.matchMedia('(max-width: 900px)').matches;
