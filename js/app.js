@@ -4,7 +4,7 @@ import { renderResume } from './resume.js';
 import { Cards } from './cards.js';
 import { Popup } from './popup.js';
 
-const VERSION = '2026-11-10p'; // bump when data/*.json changes
+const VERSION = '2026-11-11a'; // bump when data/*.json changes
 const state = { lang: 'en', resume: null, cards: null };
 const $ = (s, r = document) => r.querySelector(s);
 const isMobile = () => window.matchMedia('(max-width: 900px)').matches;
