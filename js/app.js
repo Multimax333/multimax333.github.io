@@ -25,6 +25,7 @@ async function setLang(lang) {
   renderResume($('#sheet'), state.resume, state.cards);
   $('#langToggle').textContent = state.resume.ui.lang;
   $('#downloadBtn').textContent = state.resume.ui.download;
+  $('#downloadBtn').href = `assets/pdf/Sahapat_Jundum_CV.pdf?v=${VERSION}`;
   cards.setContext({ lang, ui: state.resume.ui, t });
   popup.setContext({ lang, ui: state.resume.ui, t });
   wireHotLines();
