@@ -1,10 +1,10 @@
 // Interactive resume: renders the sheet from JSON, floats proof cards on hover,
 // opens a popup (desktop) / bottom sheet (mobile) with the work.
-import { renderResume } from './resume.js?v=2026-11-15a';
-import { Cards } from './cards.js?v=2026-11-15a';
-import { Popup } from './popup.js?v=2026-11-15a';
+import { renderResume } from './resume.js?v=2026-11-15b';
+import { Cards } from './cards.js?v=2026-11-15b';
+import { Popup } from './popup.js?v=2026-11-15b';
 
-const VERSION = '2026-11-15a'; // bump when data/*.json changes
+const VERSION = '2026-11-15b'; // bump when data/*.json changes
 const state = { lang: 'en', resume: null, cards: null };
 const $ = (s, r = document) => r.querySelector(s);
 const isMobile = () => window.matchMedia('(max-width: 900px)').matches;
@@ -25,7 +25,7 @@ async function setLang(lang) {
   renderResume($('#sheet'), state.resume, state.cards);
   $('#langToggle').textContent = state.resume.ui.lang;
   $('#downloadBtn').textContent = state.resume.ui.download;
-  $('#downloadBtn').href = `assets/pdf/Sahapat_Jundum_CV.pdf?v=${VERSION}`;
+  $('#downloadBtn').href = `assets/pdf/Sahapat_Jundum_CV_EN_2025.pdf?v=${VERSION}`;
   cards.setContext({ lang, ui: state.resume.ui, t });
   popup.setContext({ lang, ui: state.resume.ui, t });
   wireHotLines();
