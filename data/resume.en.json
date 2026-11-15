@@ -24,7 +24,7 @@
       "type": "text",
       "items": [
         {
-          "text": "Performance marketer with real-estate lead-generation experience on Meta and Google Ads, backed by a degree in Interactive and Game Design. I build ad messaging frameworks and lead forms, qualify buyers, and move inquiries through to booked viewings. On the creative side, I produce listing copy, short-form video scripts, Virtual Tours and 3D assets, using AI tools to speed up production while keeping the brand consistent."
+          "text": "Performance marketer with real-estate experience running Meta and Google Ads to find home buyers, plus a degree in Interactive and Game Design. I write ads, build lead forms, screen buyers and follow up until they book a viewing. I also create listing descriptions, short videos, Virtual Tours and 3D work, using AI tools to work faster while keeping the brand consistent."
         }
       ]
     },
@@ -39,7 +39,7 @@
           "date": "May 2026 – Nov 2026",
           "bullets": [
             {
-              "text": "Completed mandatory national military service, fully discharged."
+              "text": "Completed mandatory national military service; fully discharged."
             }
           ]
         },
@@ -51,27 +51,27 @@
           "subdate": "Jul 2025 – Oct 2025",
           "bullets": [
             {
-              "text": "Planned and ran Meta lead-gen campaigns, writing ad copy around Thai buyers’ concerns with clear calls to action, driving qualified leads for renovated-home listings."
+              "text": "Planned and ran Meta ad campaigns for renovated homes, writing ads that answered Thai buyers’ concerns to bring in quality leads."
             },
             {
-              "text": "Built Google Ads search campaigns with keyword themes and ad variants mapped to local search intent; tracked traffic and engagement in GA4.",
+              "text": "Set up Google search ads using the keywords local buyers search for, and tracked website visits and results in GA4.",
               "card": "icons-ads"
             },
             {
-              "text": "Aligned messaging across Meta and Performance Max for consistent positioning, CTAs and lead-qualification prompts."
+              "text": "Kept ad messages consistent across Meta and Google, so buyers always saw the same offer and a clear next step."
             },
             {
-              "text": "Built Instant Forms capturing location, budget and timeline, and segmented leads into nurture workflows that converted into booked viewings."
+              "text": "Created lead forms asking buyers about location, budget and timing, then sorted leads and followed up until they booked a viewing."
             },
             {
-              "text": "Managed the buyer pipeline: qualified inbound inquiries, handled objections, coordinated viewings and gave early-stage financing guidance."
+              "text": "Looked after buyers from first message to viewing: answered questions, handled concerns, arranged viewings and gave basic loan advice."
             },
             {
-              "text": "Owned listing operations and the Virtual Tour workflow (capture, edit, publish), letting buyers view homes remotely.",
+              "text": "Managed property listings and Virtual Tours (filming, editing, publishing) so buyers could view homes online.",
               "card": "sb-tour"
             },
             {
-              "text": "Wrote Thai listing copy and short-form video scripts, using ChatGPT, Gemini and Midjourney to scale output while keeping the brand consistent."
+              "text": "Wrote Thai listing descriptions and short video scripts, using AI tools (ChatGPT, Gemini, Claude) to work faster."
             }
           ]
         }
@@ -87,21 +87,21 @@
           "org": "Final Year Project, Sripatum University",
           "date": "2025",
           "card": "dyingland",
-          "desc": "Produced low- and high-poly characters, props and environments; handled modeling, texturing, optimization and Unity integration with the team."
+          "desc": "Created 3D characters, props and environments (low- and high-poly), from modeling and texturing to adding them into Unity with the team."
         },
         {
           "role": "Graphic Designer Intern",
           "org": "ACE Digital Group / TEM Entertainment",
           "date": "May 2024 – Sep 2024",
           "card": "tem",
-          "desc": "Edited photo and video and developed content concepts on-site with cross-functional production teams."
+          "desc": "Edited photos and videos and came up with content ideas, working on-site with the production team."
         },
         {
           "role": "Motion Graphic Assistant",
           "org": "Sophomore Project",
           "date": "2023",
           "card": "predator",
-          "desc": "Contributed esports motion graphics with 9up Idea for Predator League Thailand."
+          "desc": "Shadowed the 9up Idea team on esports motion graphics and worked on-site at Predator League Thailand events."
         }
       ]
     },
@@ -140,16 +140,16 @@
       "items": [
         {
           "label": "Performance:",
-          "text": "Meta & Google Ads, A/B testing, search-intent mapping, GA4",
+          "text": "Meta & Google Ads, A/B testing, keyword research, GA4",
           "card": "icons-ads"
         },
         {
           "label": "Sales:",
-          "text": "lead qualification, consultative selling, follow-up, viewing coordination"
+          "text": "screening leads, advising buyers, follow-up, booking viewings"
         },
         {
           "label": "Creative:",
-          "text": "Virtual Tours, Thai copywriting, short-form scripts & editing (CapCut), social templates (Canva), ad layout rules"
+          "text": "Virtual Tours, Thai copywriting, short video scripts & editing (CapCut), social templates (Canva), ad design"
         },
         {
           "label": "Brand & content:",
@@ -162,7 +162,7 @@
         },
         {
           "label": "AI:",
-          "text": "Claude Code & AI agents for workflow automation",
+          "text": "Claude Code & AI agents to automate daily work",
           "card": "nongwatt"
         }
       ]
